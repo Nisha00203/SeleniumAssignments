@@ -51,13 +51,5 @@ public class LaunchMultiple_EmptyBrowsers {
 
 
 
-
-
-
-
-
-
-
-
 /*WAP for launch multiple empty browser like 
 Chrome,Firefox,Edge,safari */
