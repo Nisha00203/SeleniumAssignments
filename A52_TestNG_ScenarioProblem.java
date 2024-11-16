@@ -1,6 +1,8 @@
-package TopushtoGit;
+package SeleniumAssignment;
 
 import java.io.File;
+
+
 
 import java.io.IOException;
 import java.util.Iterator;
@@ -30,6 +32,7 @@ public class A52_TestNG_ScenarioProblem
 		driver = new ChromeDriver();
 		driver.get("https://www.amazon.in/");
 		driver.manage().window().maximize();
+		
 	}
 	
 	@Test
@@ -60,7 +63,7 @@ public class A52_TestNG_ScenarioProblem
 		
 				}
 	
-				Thread.sleep(3000);		
+				Thread.sleep(1000);
 		
 			
 	}

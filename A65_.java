@@ -1,4 +1,4 @@
-package TopushtoGit;
+package SeleniumAssignment;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -42,12 +42,14 @@ public class A65_
 	   a1.moveToElement(e1).perform();
 	   e1.click();
 	   Thread.sleep(1000);
-	
+	   
+	   driver.manage().window().maximize();
 	   WebElement e3=  driver.findElement(By.xpath("(//a[.='Sign Out'])[1]"));
 	   e3.click();
 					
-					
-	   Assert.assertEquals(actual, expected, "Testcase Passed");
+	   Thread.sleep(1000);
+	   Assert.assertEquals(actual, true, "Testcase failed");
+	   
 					 
 				 
 		

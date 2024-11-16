@@ -1,4 +1,4 @@
-package TopushtoGit;
+package SeleniumAssignment;
 
 import java.util.List;
 
@@ -21,8 +21,9 @@ public class A23_Autosuggestions_PrintALL {
 		               
 		List<WebElement> li =driver.findElements(By.xpath("(//div[@class='OBMEnb'])/ul/li"));
 		
-		/*int a = li.size();
+		int a = li.size();
 		System.out.println(a);
+		/*
 		WebElement a1 = li.get(1); 
 		System.out.print(a1.getText());
 		
@@ -34,8 +35,10 @@ public class A23_Autosuggestions_PrintALL {
 			
 		  {
 				    WebElement auto1=li.get(i);    // gives the list of autosuggestion
-					String s1=auto1.getText();     // gives the text of autosuggestion
+					String s1=auto1.getText();  // gives the text of autosuggestion
 					System.out.println(s1);
+				    String s2 =	auto1.getAttribute("href"); // Prints all the links
+					System.out.println(s2);
 		  
 		  
 		  }

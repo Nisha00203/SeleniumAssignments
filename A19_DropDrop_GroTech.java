@@ -1,4 +1,4 @@
-package ToPushToGIt;
+package SeleniumAssignment;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -31,7 +31,7 @@ public class A19_DropDrop_GroTech {
 		sc3.selectByIndex(4);
 	
 
-
+		
 
 	}
 

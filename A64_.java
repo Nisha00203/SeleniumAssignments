@@ -1,4 +1,4 @@
-package TopushtoGit;
+package SeleniumAssignment;
 
 import java.util.List;
 
@@ -27,7 +27,7 @@ public class A64_
 		
 		System.out.println(li.size());
 					
-	    Assert.assertEquals(count, true, "Test case failed");    // am exoecting it to be true since am expecting elements here
+	    Assert.assertEquals(count, true, "Test case passed");    // am exoecting it to be true since am expecting elements here
 	
 				
 		

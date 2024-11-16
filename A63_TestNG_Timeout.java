@@ -1,4 +1,4 @@
-package TopushtoGit;
+package SeleniumAssignment;
 import org.testng.annotations.Test;
 
 public class A63_TestNG_Timeout 
@@ -12,7 +12,7 @@ public class A63_TestNG_Timeout
 	{
 	   System.out.println("Registration is successful");
 	}
-	@Test(timeOut = 10000)     // 10,000 mili second means 10 secs -- within this time frame testing to be completed
+	@Test(timeOut = 1000)
 	public void LandingPage()
 	{
 	   System.out.println("Landing page verification is successful");
@@ -35,7 +35,7 @@ public class A63_TestNG_Timeout
 
 
 
-// Needed for Api automation
+
 
 
 

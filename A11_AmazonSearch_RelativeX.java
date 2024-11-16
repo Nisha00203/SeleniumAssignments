@@ -7,15 +7,18 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class A11_AmazonSearch_RelativeX {
 
-	public static void main(String[] args) 
+	public static void main(String[] args) throws InterruptedException 
 	
 	{
 		
 		ChromeDriver driver =new ChromeDriver();
 		driver.get("https://www.amazon.in/");
 		driver.manage().window().maximize();
-		WebElement sear = driver.findElement(By.xpath("(//input)[5]"));
-		sear.sendKeys("shoes" +Keys.ENTER);
+		WebElement searshoe = driver.findElement(By.xpath("(//input)[5]"));
+		searshoe.sendKeys("shoes");
+		Thread.sleep(1000);
+		
+		
 		
 		
 

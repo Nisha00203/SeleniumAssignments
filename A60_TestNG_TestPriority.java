@@ -1,4 +1,4 @@
-package TopushtoGit;
+package SeleniumAssignment;
 import org.testng.annotations.AfterMethod;
 
 import org.testng.annotations.BeforeMethod;

@@ -1,4 +1,4 @@
-package TopushtoGit;
+package SeleniumAssignment;
 
 import java.util.List;
 
@@ -25,6 +25,7 @@ public class A21_AutoSuggestionDemo
 		List<WebElement> li = driver.findElements(By.xpath("//div[@class='left-pane-results-container']/div/div")); 
 		int count = li.size();
 		System.out.println(count);
+		
 		li.get(1).click();
 		
 

@@ -1,4 +1,4 @@
-package ToPushToGIt;
+package SeleniumAssignment;
 
 import java.util.List;
 

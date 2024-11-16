@@ -10,7 +10,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 
-public class A35_ScreenShotInWrongLocationDemo2 
+public class A35_ScreenShotDemo 
 {
 
 	public static void main(String[] args) throws IOException 
